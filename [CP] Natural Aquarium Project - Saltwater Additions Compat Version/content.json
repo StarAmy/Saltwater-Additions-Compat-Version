@@ -1,0 +1,626 @@
+{
+    "Format": "1.23.0",
+     "ConfigSchema": {
+         "Item Collecting": {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+      },
+    "Changes": [
+          {
+        "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/amysaltobjects.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 384, "Height": 48 }, 
+          "ToArea": { "X": 0, "Y": 1776, "Width": 384, "Height": 48 },
+          },
+          {
+          "Action": "EditData",
+            "LogName": "Fish Object Data",
+            "Target": "Data/ObjectInformation",
+            "Entries": {
+             "2664": "Marine Male Lyretail Anthias/200/8/Fish -4/Marine Male Lyretail Anthias/A striking reef fish that lives in large groups.",
+             "2665": "Marine Female Lyretail Anthias/200/8/Fish -4/Marine Female Lyretail Anthias/A striking reef fish that lives in large groups.",
+             "2666": "Marine Yellowtail Damsel/35/8/Fish -4/Marine Yellowtail Damsel/A small, hardy reef inhabitant.",
+             "2667": "Marine Striped Damsel/35/8/Fish -4/Marine Striped Damsel/A small, hardy reef inhabitant.",
+             "2668": "Marine Cone Snail/40/8/Fish -4/Marine Cone Snail/A distive, highly venemous saltwater snail.",
+             "2669": "Marine Conch Snail/50/8/Fish -4/Marine Conch Snail/The shell is highly prized for music, art, and decoration.",
+             "2670": "Marine Nautilus/120/8/Fish -4/Marine Nautilus/An unusual creature with a hard shell and tentacles.",
+             "2671": "Marine Dragon Wrasse/120/8/Fish -4/Marine Dragon Wrasse/A lively, bold reef wrasse.",
+             "2672": "Marine Emporer Angelfish/120/8/Fish -4/Marine Emporer Angelfish/A large, bossy fish with bright colors and patterns.",
+             "2673": "Marine Four Wheel Drive Goby/120/8/Fish -4/Marine Four Wheel Drive Goby/A small goby with distinctive spots.",
+             "2674": "Marine Sea Slug/120/8/Fish -4/Marine Sea Slug/A colorful tank cleaner.",
+             "2675": "Marine Chromis/120/8/Fish -4/Marine Chromis/A plain but lively schooling fish.",
+             "2676": "Marine Black and White Clownfish/120/8/Fish -4/Marine Black and White Clownfish/A small, striking fish that lives inside anemones.",
+             "2677": "Marine Maroon and White Clownfish/120/8/Fish -4/Marine Maroon and White Clownfish/A small, striking fish that lives inside anemones.",
+             "2678": "Marine Mimic Octopus/120/8/Fish -4/Marine Mimic Octopus/Survives by changing its shape to imitate more dangerous animals.",
+             "2679": "Marine Decorator Crab/80/8/Fish -4/Marine Decorator Crab/Steals pieces of coral to affix to its shell as camoflouge.",
+             "2680": "Marine Orange Ocellaris Clownfish/65/8/Fish -4/Marine Orange Ocellaris Clownfish/A small, striking fish that lives inside anemones.",
+             "2681": "Marine Maroon Clownfish/65/8/Fish -4/Marine Maroon Clownfish/A small, striking fish that lives inside anemones.",
+             "2682": "Marine Pink Skunk Clownfish/65/8/Fish -4/Marine Pink Skunk Clownfish/A small, striking fish that lives inside anemones.",
+             "2683": "Marine Flame Angelfish/80/8/Fish -4/Marine Flame Angelfish/A small, bold reef beauty.",
+             "2684": "Marine Hippo Tang/85/8/Fish -4/Marine Hippo Tang/A big, bossy blue tang.",
+             "2685": "Marine Moorish Idol/250/8/Fish -4/Marine Moorish Idol/A large, highly coveted reef fish that eats sea sponges.",
+             "2686": "Marine Bangaii Cardinal/60/8/Fish -4/Marine Bangaii Cardinal/The males brood offspring in their large jaws.",
+             "2687": "Marine Longhorn Cowfish/80/8/Fish -4/Marine Longhorn Cowfish/A pufferfish relative with unusual facial protrusions.",
+             "2688": "Marine Moon Jellyfish/90/8/Fish -4/Marine Moon Jellyfish/Watch our for their translucent, stinging tentacles.",
+             "2689": "Marine Orange Seahorse/90/8/Fish -4/Marine Orange Seahorse/An delicate creature that broods young in its pouch.",
+             "2690": "Marine Yellow Seahorse/90/8/Fish -4/Marine Yellow Seahorse/An delicate creature that broods young in its pouch.",
+             "2691": "Marine Brown Seahorse/90/8/Fish -4/Marine Brown Seahorse/An delicate creature that broods young in its pouch.",
+             "2692": "Marine Maroon Seahorse/90/8/Fish -4/Marine Maroon Seahorse/An delicate creature that broods young in its pouch.",
+             "2693": "Marine Black Ocellaris Clownfish/65/8/Fish -4/Marine Black Ocellaris Clownfish/A small, striking fish that lives inside anemones.",
+             "2694": "Marine White Ocellaris Clownfish/65/8/Fish -4/Marine White Ocellaris Clownfish/A small, striking fish that lives inside anemones.",
+             "2695": "Marine Squat Lobster/80/8/Fish -4/Marine Squat Lobster/A small crustacean with a long body and limbs.",
+             "2696": "Marine Brittle Star/45/8/Fish -4/Marine Brittle Star/An odd, thin-limbed starfish.",
+             "2697": "Marine Chocolate Chip Starfish/50/8/Fish -4/Marine Chocolate Chip Starfish/Not as tasty as it looks.",
+             "2698": "Marine Hermit Crab/40/8/Fish -4/Marine Hermit Crab/Travels with its own lodgings.",
+             "2699": "Marine Weedy Sea Dragon/300/8/Fish -4/Marine Weedy Sea Dragon/A delicate seahorse relative with effective camoflouge.",
+             "2700": "Marine Leafy Sea Dragon/200/8/Fish -4/Marine Leafy Sea Dragon/A delicate seahorse relative with effective camoflouge.",
+             "2701": "Marine Red Banded Pipefish/140/8/Fish -4/Marine Red Banded Pipefish/A colorful pipefish with a striking pattern.",
+             "2702": "Marine Blue Line Pipefish/120/8/Fish -4/Marine Blue Line Pipefish/A tiny pipefish often found in pairs.",
+             "2703": "Marine Hawkfish/80/8/Fish -4/Marine Hawkfish/A long-nosed bottom dweller.",
+             "2704": "Marine Sand Dollar/70/8/Fish -4/Marine Sand Dollar/Resides in a strikingly patterned shell.",
+             "2705": "Marine Female Harlequin Shrimp/80/8/Fish -4/Marine Female Harlequin Shrimp/A delicate invertebrate that eats tiny starfish.",
+             "2706": "Marine Yellow Tang/80/8/Fish -4/Marine Yellow Tang/A lively and social reef dweller.",
+             "2707": "Marine Red Knob Starfish/135/8/Fish -4/Marine Red Knob Starfish/Great for cleaning tank bottoms while adding a pop of color.",
+             "2708": "Marine Mantis Shrimp/160/8/Fish -4/Marine Mantis Shrimp/A small but mighty crustacean with rainbow coloration.",
+             "2709": "Marine Male Harlequin Shrimp/80/8/Fish -4/Marine Male Harlequin Shrimp/A delicate invertebrate that eats tiny starfish.",
+             "2710": "Marine Sea Apple/80/8/Fish -4/Marine Sea Apple/Its bright colors are a warning to stay away.",
+             "2711": "Marine Blue Lumpfish/80/8/Fish -4/Marine Blue Lumpfish/A small, round rock dweller.",
+             "2712": "Marine Yellow Lumpfish/80/8/Fish -4/Marine Yellow Lumpfish/A small, round rock dweller.",
+             "2713": "Marine Bamboo Shark/180/8/Fish -4/Marine Bamboo Shark/A small bottom dwelling shark, suitable for large aquariums.",
+             "2714": "Marine Cuttlefish/220/8/Fish -4/Marine Cuttlefish/Highly intelligent and able to change color to match its surroundings.",
+             "2715": "Marine Flame Scallop/80/8/Fish -4/Marine Flame Scallop/A strange scallop with attractive red tentacles.",
+             "2716": "Marine Pink Sea Anemone/80/8/Fish -4/Marine Pink Sea Anemone/Hostile to most fish, but makes an exception for some.",
+             "2717": "Marine Green Sea Anemone/80/8/Fish -4/Marine Green Sea Anemone/Hostile to most fish, but makes an exception for some.",
+             "2718": "Marine Garden Eel/230/8/Fish -4/Marine Garden Eel/They live submerged in deep sand beds.",
+             "2719": "Marine Pink Feather Duster/80/8/Fish -4/Marine Pink Feather Duster/An unusual worm often kept as a tank ornament.",
+             "2720": "Marine Mandarin Dragonet/180/8/Fish -4/Marine Mandarin Dragonet/A colorful but shy bottom dweller.",
+             "2721": "Marine Yellow Feather Duster/80/8/Fish -4/Marine Yellow Feather Duster/An unusual worm often kept as a tank ornament.",
+             "2722": "Marine Picasso Triggerfish/120/8/Fish -4/Marine Picasso Triggerfish/An aggressive, intelligent fish covered in abstract patterns.",
+             "2723": "Marine Blue Feather Duster/80/8/Fish -4/Marine Blue Feather Duster/An unusual worm often kept as a tank ornament.",
+             "2724": "Marine Gem Tang/340/8/Fish -4/Marine Gem Tang/A rare tang with delicate white patterning.",
+             "2725": "Marine Flamboyant Cuttlefish/280/8/Fish -4/Marine Flamboyant Cuttlefish/A tiny but bright cephalopod.",
+             "2726": "Marine Royal Gramma/80/8/Fish -4/Marine Royal Gramma/A small, hardy bicolored reef dweller.",
+             "2727": "Marine Dragon Eel/360/8/Fish -4/Marine Dragon Eel/A large, colorful eel, highly prized in home aquaria.",
+             "2728": "Marine Male Ribbon Eel/140/8/Fish -4/Marine Male Ribbon Eel/A thin, delicate eel able to change gender at maturity.",
+             "2729": "Marine Female Ribbon Eel/140/8/Fish -4/Marine Female Ribbon Eel/A thin, delicate eel able to change gender at maturity.",
+             "2730": "Marine Juvenile Ribbon Eel/140/8/Fish -4/Marine Juvenile Ribbon Eel/A thin, delicate eel able to change gender at maturity.",
+             "2731": "Marine Purple Tang/185/8/Fish -4/Marine Purple Tang/A lively and social reef dweller.",
+             "2732": "Marine Harlequin Tuskfish/135/8/Fish -4/Marine Harlequin Tuskfish/Testing",
+             "2733": "Marine Horseshoe Crab/85/8/Fish -4/Marine Horseshoe Crab/Sometimes crawls up out of the water onto nearby beaches.",
+             "2734": "Marine Shark Egg/320/8/Fish -4/Marine Shark Egg/From time to time you can see the shark inside move.",
+             "2735": "Marine Shrimp Goby/95/8/Fish -4/Marine Shrimp Goby/Burrows holes into the sand, and sometimes shares them with shrimp friends.",
+          }
+        },
+      {
+      "Action": "EditData",
+      "Target": "Data/Fish",
+      "Entries": {
+        "2680": "Marine Orange Ocellaris Clownfish/30/dart/1/3/600 1800/spring/both/689 .4 680 .1/1/.45/.1/0",
+        "2681": "Marine Maroon Clownfish/45/dart/1/3/600 1800/summer/both/689 .4 680 .1/1/.45/.1/0",
+        "2682": "Marine Pink Skunk Clownfish/45/dart/1/3/600 1800/winter/both/689 .4 680 .1/1/.45/.1/0",
+        "2693": "Marine Black Ocellaris Clownfish/30/dart/1/3/600 1800/fall/both/689 .4 680 .1/1/.45/.1/0",
+        "2694": "Marine White Ocellaris Clownfish/30/dart/1/3/600 1800/spring/both/689 .4 680 .1/1/.45/.1/0",
+        "2676": "Marine Black and White Clownfish/30/dart/1/3/600 1800/fall/both/689 .4 680 .1/1/.45/.1/0",
+        "2677": "Marine Maroon and White Clownfish/45/dart/1/3/600 1800/summer/both/689 .4 680 .1/1/.45/.1/0",
+        "2683": "Marine Flame Angelfish/60/dart/2/4/1200 1800/spring summer/both/689 .4 680 .1/2/.35/.3/3",
+        "2684": "Marine Hippo Tang/75/dart/6/12/600 1800/summer fall/both/689 .4 680 .1/3/.35/.3/5",
+        "2685": "Marine Moorish Idol/85/mixed/6/12/600 1200/summer/sunny/689 .4 680 .1/4/.1/.25/9",
+        "2686": "Marine Bangaii Cardinal/45/sinker/1/3/600 2600/fall/both/689 .4 680 .1/2/.35/.3/0",
+        "2687": "Marine Longhorn Cowfish/75/floater/4/12/1200 1800/winter/rainy/689 .4 680 .1/3/.35/.3/3",
+        "2689": "Marine Orange Seahorse/60/floater/2/8/1200 1800/fall/sunny/689 .4 680 .1/2/.35/.3/4",
+        "2690": "Marine Yellow Seahorse/60/floater/2/8/1200 1800/fall/sunny/689 .4 680 .1/2/.35/.3/4",
+        "2691": "Marine Brown Seahorse/60/floater/2/8/1200 1800/spring/sunny/689 .4 680 .1/2/.35/.3/4",
+        "2692": "Marine Maroon Seahorse/60/floater/2/8/1200 1800/spring/sunny/689 .4 680 .1/2/.35/.3/4",
+        "2699": "Marine Weedy Sea Dragon/75/floater/6/18/600 1200/fall/rainy/689 .4 680 .1/2/.35/.3/8",
+        "2700": "Marine Leafy Sea Dragon/75/floater/6/18/600 1200/winter/rainy/689 .4 680 .1/2/.35/.3/7",
+        "2701": "Marine Red Banded Pipefish/70/dart/3/8/600 1200/summer fall/sunny/689 .4 680 .1/2/.05/.1/5",
+        "2711": "Marine Blue Lumpfish/65/dart/3/8/1800 2600/winter/both/689 .4 680 .1/4/.4/.1/3",
+        "2712": "Marine Yellow Lumpfish/65/sinker/3/8/1800 2600/spring/both/689 .4 680 .1/4/.4/.1/3",
+        "2713": "Marine Bamboo Shark/80/sinker/12/36/1800 2600/fall/sunny/689 .4 680 .1/3/.15/.1/8",
+        "2706": "Marine Yellow Tang/25/dart/3/8/600 1800/spring summer/sunny/689 .4 680 .1/1/.45/.1/0",
+        "2703": "Marine Hawkfish/45/sinker/2/7/1200 2600/fall winter/both/689 .4 680 .1/3/.4/.15/0",
+        "2702": "Marine Blue Line Pipefish/70/dart/1/3/600 1200/spring summer/rainy/689 .4 680 .1/4/.3/.5/3",
+        "2718": "Marine Garden Eel/80/sinker/6/18/1200 2600/spring/rainy/689 .4 680 .1/3/.15/.1/6",
+        "2720": "Marine Mandarin Dragonet/75/sinker/2/6/1200 1800/spring/sunny/689 .4 680 .1/4/.1/.25/6",
+        "2722": "Marine Picasso Triggerfish/75/dart/6/16/600 1200/summer fall/rainy/689 .4 680 .1/3/.4/.15/4",
+        "2735": "Marine Shrimp Goby/60/sinker/2/8/600 1200/fall winter/both/689 .4 680 .1/3/.4/.2/0",
+        "2714": "Marine Cuttlefish/75/dart/3/12/1800 2600/summer fall/rainy/689 .4 680 .1/5/.1/.08/6",
+        "2724": "Marine Gem Tang/90/dart/3/8/1200 1800/fall/rainy/689 .4 680 .1/4/.3/.1/9",
+        "2725": "Marine Flamboyant Cuttlefish/80/dart/1/3/600 1200/summer/both/689 .4 680 .1/3/.2/.1/8",
+        "2732": "Marine Harlequin Tuskfish/65/dart/3/10/1800 2600/summer fall/both/689 .4 680 .1/4/.4/.1/4",
+        "2727": "Marine Dragon Eel/80/dart/24/40/1800 2600/winter spring/rainy/689 .4 680 .1/5/.1/.08/8",
+        "2728": "Marine Male Ribbon Eel/70/sinker/16/36/1800 2600/spring/sunny/689 .4 680 .1/2/.1/.1/6",
+        "2729": "Marine Female Ribbon Eel/70/sinker/16/36/1800 2600/summer/sunny/689 .4 680 .1/2/.1/.1/6",
+        "2730": "Marine Juvenile Ribbon Eel/70/sinker/8/16/1800 2600/winter/sunny/689 .4 680 .1/2/.1/.1/6",
+        "2731": "Marine Purple Tang/75/dart/3/8/600 1200/spring/sunny/689 .4 680 .1/2/.15/.1/5",
+        "2726": "Marine Royal Gramma/55/dart/1/3/600 1200/spring fall/sunny/689 .4 680 .1/1/.45/.1/0",
+        "2664": "Marine Male Lyretail Anthias/85/dart/4/8/600 1200/spring summer/sunny/689 .4 680 .1/3/.15/.55/8",
+        "2665": "Marine Female Lyretail Anthias/85/dart/4/8/600 1200/spring summer/sunny/689 .4 680 .1/3/.15/.55/8",
+        "2666": "Marine Yellowtail Damsel/10/dart/1/3/600 2600/spring/sunny/689 .4 680 .1/1/.45/.1/0",
+        "2667": "Marine Striped Damsel/10/dart/1/3/600 2600/fall/sunny/689 .4 680 .1/1/.45/.1/0",
+        "2670": "Marine Nautilus/75/floater/4/14/600 1200/winter/rainy/689 .4 680 .1/4/.1/.25/6", 
+        "2671": "Marine Dragon Wrasse/55/dart/3/10/600 1800/spring winter/both/689 .4 680 .1/3/.35/.3/3",
+        "2672": "Marine Emporer Angelfish/65/dart/5/12/600 1200/spring fall/sunny/689 .4 680 .1/4/.1/.25/5",
+        "2673": "Marine Four Wheel Drive Goby/35/sinker/2/4/1200 2600/winter/rainy/689 .4 680 .1/3/.35/.3/0",
+        "2675": "Marine Chromis/25/dart/2/4/600 2600/winter/both/689 .4 680 .1/1/.45/.1/0",
+        "2678": "Marine Mimic Octopus/80/sinker/12/24/1800 2600/winter/rainy/689 .4 680 .1/4/.1/.25/9",
+         },
+         },
+          //crab pot data
+         {
+         "Action": "EditData",
+        "LogName": "Crabpot Spring",
+          "Target": "Data/Fish",
+        "When": {"Season":"spring", "Item Collecting": "True"},
+          "Entries": {
+         "2719": "Marine Pink Feather Duster/trap/.35/682 .35/ocean/1/5",
+         "2721": "Marine Yellow Feather Duster/trap/.25/682 .35/ocean/1/5",
+         "2723": "Marine Blue Feather Duster/trap/.25/682 .35/ocean/1/5",
+         "2708": "Marine Mantis Shrimp/trap/.15/682 .35/ocean/3/6",
+         "2697": "Marine Chocolate Chip Starfish/trap/.35/682 .35/ocean/2/8",
+         "2679": "Marine Decorator Crab/trap/.55/682 .35/ocean/2/5",            
+        },
+        },
+        {
+         "Action": "EditData",
+        "LogName": "Crabpot Summer",
+          "Target": "Data/Fish",
+        "When": {"Season":"summer", "Item Collecting": "True"},
+          "Entries": {
+         "2704": "Marine Sand Dollar/trap/.4/682 .35/ocean/3/5",
+         "2716": "Marine Pink Sea Anenome/trap/.25/682 .35/ocean/1/8",
+         "2717": "Marine Green Sea Anenome/trap/.15/682 .35/ocean/1/8",
+         "2696": "Marine Brittle Star/trap/.45/682 .35/ocean/3/8",
+         "2668": "Marine Cone Snail/trap/.45/682 .35/ocean/3/8",
+         "2674": "Marine Sea Slug/trap/.45/682 .35/ocean/3/8",
+
+         },
+        },
+        {
+         "Action": "EditData",
+        "LogName": "Crabpot Fall",
+          "Target": "Data/Fish",
+        "When": {"Season":"fall", "Item Collecting": "True"},
+          "Entries": {
+         "2710": "Marine Sea Apple/trap/.40/682 .35/ocean/4/8",
+         "2715": "Marine Flame Scallop/trap/.35/682 .35/ocean/2/4",
+         "2709": "Marine Male Harlequin Shrimp/trap/.25/682 .35/ocean/1/3",
+         "2705": "Marine Female Harlequin Shrimp/trap/.2/682 .35/ocean/1/3",
+         "2734": "Marine Shark Egg/trap/.1/682 .35/ocean/6/8",
+         },
+        },
+        {
+         "Action": "EditData",
+        "LogName": "Crabpot Winter",
+          "Target": "Data/Fish",
+        "When": {"Season":"winter", "Item Collecting": "True"},
+          "Entries": {
+         "2688": "Marine Moon Jellyfish/trap/.55/682 .35/ocean/1/10",
+         "2707": "Marine Red Knob Starfish/trap/.45/682 .35/ocean/2/6",
+         "2695": "Marine Squat Lobster/trap/.55/682 .35/ocean/2/3",
+         "2669": "Marine Conch Snail/trap/.45/682 .35/ocean/3/8",
+        },
+        },
+//location data 
+        {
+      "Action": "EditData",
+      "LogName": "Saltwater Fish Location Data",
+      "Target": "Data/Locations",
+      "When":{ 
+            "Item Collecting": "True"
+        },
+      "TextOperations": [
+     {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 0],//spring forage beach
+         "Value": "2733 .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+        {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 1],//summer forage beach
+         "Value": "2698 .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 2],//fall forage beach
+         "Value": "2733 .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+  {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 3],//winter forage beach
+         "Value": "2698 .4",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+     {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 4],//spring fishing beach
+         "Value": "2718 -1 2712 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+        {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 5],//summer fishing beach
+         "Value": "2714 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 6],//fall fishing beach
+         "Value": "2714 -1 2699 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "Beach", 7],//winter fishing beach
+         "Value": "2670 -1 2711 -1 2700 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouth", 4],//spring fishing beach
+         "Value": "2683 -1 2691 -1 2692 -1 2706 -1 2702 -1 2720 -1 2728 -1 2731 -1 2726 -1 2666 -1 2672 -1 2680 -1 2694 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+        {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouth", 5],//summer fishing beach
+         "Value": "2683 -1 2684 -1 2685 -1 2701 -1 2706 -1 2702 -1 2722 -1 2729 -1 2681 -1 2677 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouth", 6],//fall fishing beach
+         "Value": "2684 -1 2686 -1 2689 -1 2690 -1 2701 -1 2703 -1 2722 -1 2735 -1 2726 -1 2667 -1 2672 -1 2676 -1 2693 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouth", 7],//winter fishing beach
+         "Value": "2687 -1 2703 -1 2735 -1 2730 -1 2673 -1 2675 -1 2682 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEast", 4],//spring fishing beach
+         "Value": "2683 -1 2691 -1 2692 -1 2706 -1 2702 -1 2720 -1 2728 -1 2731 -1 2726 -1 2666 -1 2672 -1 2680 -1 2694 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+        {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEast", 5],//summer fishing beach
+         "Value": "2683 -1 2684 -1 2685 -1 2701 -1 2706 -1 2702 -1 2722 -1 2729 -1 2681 -1 2677 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEast", 6],//fall fishing beach
+         "Value": "2684 -1 2686 -1 2689 -1 2690 -1 2701 -1 2703 -1 2722 -1 2735 -1 2726 -1 2667 -1 2672 -1 2676 -1 2693 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEast", 7],//winter fishing beach
+         "Value": "2687 -1 2703 -1 2735 -1 2730 -1 2673 -1 2675 -1 2682 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+ {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandWest", 4],//spring fishing beach
+         "Value": "2683 1 2691 1 2692 1 2706 1 2702 1 2720 1 2728 1 2731 1 2726 1 2666 1 2672 1 2680 1 2694 1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+        {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandWest", 5],//summer fishing beach
+         "Value": "2683 1 2684 1 2685 1 2701 1 2706 1 2702 1 2722 1 2729 1 2681 1 2677 1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandWest", 6],//fall fishing beach
+         "Value": "2684 1 2686 1 2689 1 2690 1 2701 1 2703 1 2722 1 2735 1 2726 1 2667 1 2672 1 2676 1 2693 1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandWest", 7],//winter fishing beach
+         "Value": "2687 1 2703 1 2735 1 2730 1 2673 1 2675 1 2682 1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEastCave", 4],//spring fishing beach
+         "Value": "2727 -1 2671 -1 2664 -1 2665 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+        {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEastCave", 5],//summer fishing beach
+         "Value": "2725 -1 2732 -1 2664 -1 2665 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEastCave", 6],//fall fishing beach
+         "Value": "2713 -1 2724 -1 2732 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+      {
+         "Operation": "Append",
+         "Target": ["Fields", "IslandSouthEastCave", 7],//winter fishing beach
+         "Value": "2727 -1 2671 -1 2678 -1",
+         "Delimiter": " " // if there are already values, add a space between them and the new ones
+      },
+    ],
+    },
+    //Aquarium Data
+       {
+      "Action": "EditImage",
+      "LogName": "StarAmy Aquarium",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/staramyaquariumdata.png",
+        "ToArea": { "X": 0, "Y": 1248, "Width": 480, "Height": 384 },
+      },
+      {
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+         "2664": "520/fish",    
+         "2665": "521/fish",
+         "2666": "522/fish",    
+         "2667": "523/fish",    
+         "2668": "524/crawl",    
+         "2669": "525/crawl",    
+         "2670": "526/float/526/527 528/527 528/527 528",        
+         "2679": "540/crawl/540 541 542 543 544 540/545 546/545 546/545 546",    
+         "2680": "542/fish",    
+         "2681": "543/fish",    
+         "2682": "544/fish",
+         "2683": "545/fish",
+         "2684": "546/fish",
+         "2685": "547/fish",                                
+         "2686": "548/fish",
+         "2687": "549/fish",
+         "2688": "550/float/550/551/550/551",
+         "2689": "552/float",
+         "2690": "553/float",
+         "2691": "554/float",
+         "2692": "555/float",
+         "2693": "556/fish",
+         "2694": "557/fish",
+         "2695": "558/crawl/558/559/558/559",
+         "2696": "560/crawl/561/560/562/560",
+         "2697": "563/static",
+         "2698": "564/crawl/564/565/565/565",
+         "2699": "566/float",
+         "2700": "567/float",
+         "2701": "568/float",
+         "2702": "569/float",
+         "2715": "590/static",
+         "2716": "594/static",
+         "2717": "597/static",
+         "2704": "571/static",
+         "2710": "580/static",
+         "2711": "584/ground",
+         "2712": "585/ground",
+         "2713": "586/ground",
+         "2714": "587/fish/587/588 589 588/588 589 588/588 589 588",
+         "2706": "574/fish",
+         "2707": "575/static",
+         "2708": "576/crawl/576/577/577/577",
+         "2709": "578/crawl/578/579/579/579",
+         "2705": "572/crawl/572/573/573/573",
+         "2703": "570/ground",
+         "2718": "600/static",
+         "2719": "620/static",
+         "2720": "626/ground",
+         "2721": "627/static",
+         "2722": "633/fish",
+         "2723": "634/static",
+         "2735": "660/static",
+         "2724": "640/fish",
+         "2725": "641/fish",
+         "2726": "642/fish",
+         "2727": "643/eel",
+         "2728": "644/eel",
+         "2729": "645/eel",
+         "2730": "646/eel",
+         "2731": "647/fish",
+         "2732": "648/fish",
+         "2733": "649/crawl",
+         "2734": "650/static",
+         "2676": "529/fish",
+         "2677": "530/fish",
+         "2673": "531/ground",
+         "2671": "532/ground",
+         "2672": "535/fish",
+         "2674": "533/ground",
+         "2675": "536/fish",
+         "2679": "651/crawl/651 651 652 652 653 653 654 654 655 655 651 651/656 657/656 657/656 657",
+         "2678": "658/static",
+
+
+      },
+      },
+      //Stationary Aquarium Animations
+     {
+     "LogName": "Sea Apple Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/sea_apple.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 0, "Y": 1392, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 60,
+     "AnimationFrameCount": 4,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Flame Scallop Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/flame_scallop.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 240, "Y": 1392, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 60,
+     "AnimationFrameCount": 4,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Garden Eel Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/garden_eel.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 0, "Y": 1440, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 20,
+     "AnimationFrameCount": 20,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Pink Feather Duster Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/pink_feather_duster.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 0, "Y": 1488, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 40,
+     "AnimationFrameCount": 6,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Yellow Feather Duster Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/yellow_feather_duster.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 168, "Y": 1488, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 40,
+     "AnimationFrameCount": 6,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Blue Feather Duster Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/blue_feather_duster.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 336, "Y": 1488, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 40,
+     "AnimationFrameCount": 6,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+   },
+   {
+     "LogName": "Shrimp Goby Animated",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/shrimp_goby.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 0, "Y": 1584, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 20,
+     "AnimationFrameCount": 20,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+   {
+     "LogName": "Pink Sea Anenome",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/pink_sea_anenome.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 336, "Y": 1392, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 3,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Green Sea Anenome",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/green_sea_anenome.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 408, "Y": 1392, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 30,
+     "AnimationFrameCount": 3,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {
+     "LogName": "Shark Egg",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/shark_egg.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 240, "Y": 1536, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 20,
+     "AnimationFrameCount": 10,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+     {
+     "LogName": "Mimic Octopus",  
+     "Action": "EditImage",
+     "Target": "LooseSprites/AquariumFish",
+     "FromFile": "assets/octopus.png",
+     "FromArea": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+     "ToArea": { "X": 432, "Y": 1536, "Width": 24, "Height": 24 },
+     "AnimationFrameTime": 40,
+     "AnimationFrameCount": 16,
+     "When":
+        {
+        "HasMod": "spacechase0.ContentPatcherAnimations",
+        }
+    },
+    {   
+    "Action": "EditData",
+    "LogName": "Context Tags",
+    "Target": "Data/ObjectContextTags",
+    "Entries": { 
+      "Marine Pink Sea Anemone": "fish_anemone",
+      "Marine Green Sea Anemone": "fish_anemone",
+      "Marine Orange Ocellaris Clownfish": "fish_clownfish",
+      "Marine Maroon Clownfish": "fish_clownfish",
+      "Marine Black Ocellaris Clownfish": "fish_clownfish",
+      "Marine White Ocellaris Clownfish": "fish_clownfish",
+      "Marine Pink Skunk Clownfish": "fish_clownfish",
+      "Marine Black and White Clownfish": "fish_clownfish",
+      "Marine Maroon and White Clownfish": "fish_clownfish",
+      "Marine Yellow Seahorse": "fish_seahorse",
+      "Marine Orange Seahorse": "fish_seahorse",
+      "Marine Brown Seahorse": "fish_seahorse",
+      "Marine Maroon Seahorse": "fish_seahorse",
+   }
+}
+  ]
+}

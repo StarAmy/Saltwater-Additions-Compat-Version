@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Natural Aquarium Project - Saltwater Additions Compat Version",
+  "Author": "StarAmy",
+  "Version": "1.0.0",
+  "Description": "Adds new fish for all saltwater locations.",
+  "UniqueID": "StarAmy.SaltAdditions",
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.20.0"
+   }
+}
